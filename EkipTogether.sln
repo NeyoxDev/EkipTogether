@@ -12,5 +12,6 @@ Global
 		{B02F335C-2677-458E-98DD-43F5C5CC7CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B02F335C-2677-458E-98DD-43F5C5CC7CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B02F335C-2677-458E-98DD-43F5C5CC7CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02F335C-2677-458E-98DD-43F5C5CC7CCE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
