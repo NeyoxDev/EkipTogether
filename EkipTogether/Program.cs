@@ -14,9 +14,17 @@ namespace EkipTogether
         [STAThread]
         static void Main()
         {
+            Saver.loadOptions();
+            Saver.addParam("user", "Neyox");
+            DiscordRichPresence.Initialize();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new ConnectForm());
+            Application.ApplicationExit += (sender, args) =>
+            {
+                Saver.saveOptions();
+            };
+
         }
     }
 }
