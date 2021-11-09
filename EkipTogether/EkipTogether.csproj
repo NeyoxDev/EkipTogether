@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props')" />
     <Import Project="..\packages\CefSharp.Common.95.7.141\build\CefSharp.Common.props" Condition="Exists('..\packages\CefSharp.Common.95.7.141\build\CefSharp.Common.props')" />
     <Import Project="..\packages\cef.sdk.95.7.14\build\cef.sdk.props" Condition="Exists('..\packages\cef.sdk.95.7.14\build\cef.sdk.props')" />
     <Import Project="..\packages\cef.redist.x86.95.7.14\build\cef.redist.x86.props" Condition="Exists('..\packages\cef.redist.x86.95.7.14\build\cef.redist.x86.props')" />
@@ -49,6 +50,10 @@
         </Reference>
         <Reference Include="CefSharp.WinForms, Version=95.7.141.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138">
           <HintPath>..\packages\CefSharp.WinForms.95.7.141\lib\net452\CefSharp.WinForms.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Costura, Version=5.7.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\packages\Costura.Fody.5.7.0\lib\netstandard1.0\Costura.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="DiscordRPC, Version=1.0.175.0, Culture=neutral, PublicKeyToken=null">
@@ -108,6 +113,7 @@
         </Compile>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Rooms\RoomCreator.cs" />
         <Compile Include="Saver.cs" />
         <Compile Include="server\ServerYoutubeStream.cs">
           <SubType>Form</SubType>
@@ -160,6 +166,11 @@
       <Error Condition="!Exists('..\packages\cef.sdk.95.7.14\build\cef.sdk.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.sdk.95.7.14\build\cef.sdk.props'))" />
       <Error Condition="!Exists('..\packages\CefSharp.Common.95.7.141\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.95.7.141\build\CefSharp.Common.props'))" />
       <Error Condition="!Exists('..\packages\CefSharp.Common.95.7.141\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.95.7.141\build\CefSharp.Common.targets'))" />
+      <Error Condition="!Exists('..\packages\Fody.6.5.5\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.5.5\build\Fody.targets'))" />
+      <Error Condition="!Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props'))" />
+      <Error Condition="!Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets'))" />
     </Target>
     <Import Project="..\packages\CefSharp.Common.95.7.141\build\CefSharp.Common.targets" Condition="Exists('..\packages\CefSharp.Common.95.7.141\build\CefSharp.Common.targets')" />
+    <Import Project="..\packages\Fody.6.5.5\build\Fody.targets" Condition="Exists('..\packages\Fody.6.5.5\build\Fody.targets')" />
+    <Import Project="..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets" Condition="Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets')" />
 </Project>

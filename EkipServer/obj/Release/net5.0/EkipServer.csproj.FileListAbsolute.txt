@@ -1,0 +1,17 @@
+E:\Développement\EkipTogether\EkipServer\bin\Release\net5.0\EkipServer.exe
+E:\Développement\EkipTogether\EkipServer\bin\Release\net5.0\EkipServer.deps.json
+E:\Développement\EkipTogether\EkipServer\bin\Release\net5.0\EkipServer.runtimeconfig.json
+E:\Développement\EkipTogether\EkipServer\bin\Release\net5.0\EkipServer.runtimeconfig.dev.json
+E:\Développement\EkipTogether\EkipServer\bin\Release\net5.0\EkipServer.dll
+E:\Développement\EkipTogether\EkipServer\bin\Release\net5.0\ref\EkipServer.dll
+E:\Développement\EkipTogether\EkipServer\bin\Release\net5.0\EkipServer.pdb
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.csprojAssemblyReference.cache
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.AssemblyInfoInputs.cache
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.AssemblyInfo.cs
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.csproj.CoreCompileInputs.cache
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.csproj.Fody.CopyLocal.cache
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.dll
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\ref\EkipServer.dll
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.pdb
+E:\Développement\EkipTogether\EkipServer\obj\Release\net5.0\EkipServer.genruntimeconfig.cache
